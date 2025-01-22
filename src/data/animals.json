@@ -1,0 +1,381 @@
+[
+    {
+        "id": 1,
+        "name": "Annabelle",
+        "description": "Alpaca girl",
+        "age": 18,
+        "icon": "Annabelle.jpg",
+        "image": "Annabelle.jpg",
+        "info": "She will be wary of you so start by ignoring her! She’ll grumble at you if you get too close! From time to time she suffers from a blocked tear duct. It's not serious and the vet has seen it and prefers to leave it.  It hasn’t been an issue for many years but just keep an eye on her. She will take food from your hand if she’s in the right mood!"
+    },
+    {
+        "id": 2,
+        "name": "Bean",
+        "description": "Black tomcat, mixed breed",
+        "age": 6,
+        "icon": "Bean.jpg",
+        "image": "Bean.jpg",
+        "info": "Bean is a little shy but gets used to you quickly. She comes to you when she wants to be petted. Attention: she sometimes bites when you pet her. As a token of love. As a indoor cat, she keeps herself fit on a running wheel.  "
+    },
+    {
+        "id": 3,
+        "name": "Bella",
+        "description": "Electus Parrot, lady",
+        "age": 12,
+        "icon": "Bella.jpg",
+        "image": "Bella.jpg",
+        "info": "Bella is always very curious and eager to explore anything you keep within her reach. She doesn't fly much but is a good walker and a superb climber. You can carry her around on the back of your hand, arm or shoulder. "
+    },
+    {
+        "id": 4,
+        "name": "Beyonce",
+        "description": "Funny chicken",
+        "age": 3,
+        "icon": "Beyonce.jpg",
+        "image": "Beyonce.jpg",
+        "info": "Beyonce was a very funny chicken. And very curious. She followed us everywhere. We had great fun on our joined worm hunts. "
+    },
+    {
+        "id": 5,
+        "name": "Bismarck, aka Biz",
+        "description": "German shorthaired pointer.",
+        "age": 12,
+        "icon": "Biz.jpg",
+        "image": "Biz.jpg",
+        "info": "Biz is a rather big old boy. He sleeps a lot. Biz is a rather large dog. He sleeps a lot. When going for walks he can sometimes be a bit annoying as he pulls very hard on the leash. I started exercises to made him run along the bike. That worked very well."
+    },
+    {
+        "id": 6,
+        "name": "Boadie",
+        "description": "Cocker spaniel.",
+        "age": 10,
+        "icon": "Boadie.jpg",
+        "image": "Boadie.jpg",
+        "info": "A very cute little spring or cocker spaniel. Likes cuddles, of course food and walks. And likes to chase tennis balls in the garden. Gets along very well with the free running chicken. "
+    },
+    {
+        "id": 7,
+        "name": "Boefje",
+        "description": "Lady Cat",
+        "age": 5,
+        "icon": "Boefje.jpg",
+        "image": "Boefje.jpg",
+        "info": "Boefje means Rascal. She lives together with Biz, a german pointer. They do get along each other quite good. Boefje goes in and out. She waits before the door when she wwants to be let in again. "
+    },
+    {
+        "id": 8,
+        "name": "Bunnies",
+        "description": "Bunnies",
+        "age": 4,
+        "icon": "Bunnies.jpg",
+        "image": "Bunnies.jpg",
+        "info": "Actually, not much to say about these guys. Not sure if they are guys at all. Rather shy. "
+    },
+    {
+        "id": 9,
+        "name": "Button",
+        "description": "Alpaca boy",
+        "age": 13,
+        "icon": "Button.jpg",
+        "image": "Button.jpg",
+        "info": "Button is a 13 year old dark brown male. He has never mated and we just keep him because he's gorgeous. He may let you scratch his neck and give him a rub "
+    },
+    {
+        "id": 10,
+        "name": "Carapatte",
+        "description": "Turtle",
+        "age": 20,
+        "icon": "Carapatte.jpg",
+        "image": "Carapatte.jpg",
+        "info": "Carapatte came as a surprise. We didn't expect her on our sit. She is a free running, self-contained turtle and lives in the garden. You can attract her easily with lettuce leaves.  "
+    },
+    {
+        "id": 11,
+        "name": "Charlotte",
+        "description": "Beagle",
+        "age": 7,
+        "icon": "Charlotte.jpg",
+        "image": "Charlotte.jpg",
+        "info": "Charlotte is a 7 year old Beagle girl. Sleeping, eating, sniffing - that's all you need in life. And she likes belly scratching. Walking can sometimes be a challenge as there are so many tracks to follow, corners to sniff at and such. Best to take your time and don't rush. Charlotte lives together with Luigi, a Begal cat. They do like each other."
+    },
+    {
+        "id": 12,
+        "name": "Chica&Rosie",
+        "description": "Alpaca girl",
+        "age": 16,
+        "icon": "Chica&Rosie.jpg",
+        "image": "Chica&Rosie.jpg",
+        "info": "Chica is a 16 year old white Diva! She is the boss in the girls group. We probably liked her most because she was the most trusting. Rosie is an 11 year old fawn/white female.  Rosie is from Chica. Rosie is a little timid but gentle and sweet and will take food from your hand. She and Ebony are best mates!"
+    },
+    {
+        "id": 13,
+        "name": "Chicken-HBosch",
+        "description": "Chicken",
+        "age": 5,
+        "icon": "Chicken-HBosch.jpg",
+        "image": "Chicken-HBosch.jpg",
+        "info": "Mevrouw van Puffele, Cato, Trees, Bolle, Lola, No 1 of the two sisters, No 2 of the 2 sisters, Kruimel, Tante Nei Goldie Hawn, Spikkel "
+    },
+    {
+        "id": 14,
+        "name": "Chicken-Koblenz",
+        "description": "Chicken",
+        "age": 5,
+        "icon": "Chicken-Koblenz.jpg",
+        "image": "Chicken-Koblenz.jpg",
+        "info": "Kirke, Karamella, Daphne, Penepole, Alani  "
+    },
+    {
+        "id": 15,
+        "name": "Chicken-Koblenz-2",
+        "description": "Chicken",
+        "age": 5,
+        "icon": "Chicken-Koblenz-2.jpg",
+        "image": "Chicken-Koblenz-2.jpg",
+        "info": "see Chicken-Koblenz  "
+    },
+    {
+        "id": 16,
+        "name": "Cinnamon",
+        "description": "mixed breed, american staffordshire",
+        "age": 10,
+        "icon": "Cinnamon.jpg",
+        "image": "Cinnamon.jpg",
+        "info": "Cinnamon is a sweet girl. Likes cuddles, easy to walk on leash, and we got her to run along the bike. Running on the beach is what she likes most. "
+    },
+    {
+        "id": 17,
+        "name": "Ebony",
+        "description": "Alpaca girl",
+        "age": 12,
+        "icon": "Ebony.jpg",
+        "image": "Ebony.jpg",
+        "info": "Ebony,  black, 12 years old, can seem a little timid but she just takes more time to get to know you! She was bottle fed but has always been timid and will rarely take food from your hand. She is the look out alpaca so is usually the one who sounds a warning if she sees anything threatening! The warning is a bit like a donkeys braying and when they hear it, the alpacas will all stand and look towards whatever has caused the alarm. Should you hear the alarm, check out what the problem is as its rare to hear it! Sometimes a strange cat is the reason."
+    },
+    {
+        "id": 18,
+        "name": "Eko",
+        "description": "Golden Retriever",
+        "age": 8,
+        "icon": "Eko.jpg",
+        "image": "Eko.jpg",
+        "info": "Eko - a handsome friendly golden retriever. He loves retrieving stones; no pieces of wood or branches. Just stones! He is a great swimmer and diver too. We had a good time together in Lake Neuchatel. He does fetch stones in the lake as well and to no end. Eko also likes walks and is very good and well behaved with other dogs. We took him off-leash and on-leash. Hint: always carry along some treats and of course stones to get his full attention. "
+    },
+    {
+        "id": 19,
+        "name": "Floky",
+        "description": "Turtel",
+        "age": 5,
+        "icon": "Floky.jpg",
+        "image": "Floky.jpg",
+        "info": "Floky is a cute and friendly Golden retriever. He likes cuddles and he likes walks which he couldn't get enough of. When walking, we always kept him on leash, which was no problem for him. He is easy to walk and easy with other dogs (and humans). We started first quite promising exercises to have him run alongside the bicycle. He enjoyed it very much.  "
+    },
+    {
+        "id": 20,
+        "name": "Gina",
+        "description": "Shetland pony",
+        "age": 31,
+        "icon": "Gina.jpg",
+        "image": "Gina.jpg",
+        "info": "Old lady pony who shares the stable with Granny and Kingdom. Needs some medication, but is easy to care for. Loves to be petted. "
+    },
+    {
+        "id": 21,
+        "name": "Granny",
+        "description": "German riding pony",
+        "age": 30,
+        "icon": "Granny.jpg",
+        "image": "Granny.jpg",
+        "info": "Another old lady living together with Gina. She is very good-natured and patient when putting on the harness or changing the blanket at bad weather. We love her. "
+    },
+    {
+        "id": 22,
+        "name": "Hannes&Jannes",
+        "description": "Ghoats",
+        "age": 6,
+        "icon": "Hannes&Jannes.jpg",
+        "image": "Hannes&Jannes.jpg",
+        "info": "Hannes + Jannes made us smile a lot; 2 funny guys always looking for food and quite companionable. They liked to be brushed and welcomed us with excited noises.  "
+    },
+    {
+        "id": 23,
+        "name": "Hannes",
+        "description": "Ghoat",
+        "age": 6,
+        "icon": "Hannes.jpg",
+        "image": "Hannes.jpg",
+        "info": "see Hannes + Jannes.  "
+    },
+    {
+        "id": 24,
+        "name": "Henry&Wilhelmina",
+        "description": "Maine Coone cats",
+        "age": 3,
+        "icon": "Henry&Wilhelmina.jpg",
+        "image": "Henry&Wilhelmina.jpg",
+        "info": "Henry (boy, 3yrs) and Wilhemina (girls, 18yrs) are pure indoor cats (living in 18th floor appartement). They live happy together with 2 dachshunds."
+    },
+    {
+        "id": 25,
+        "name": "Jett",
+        "description": "Dachshund",
+        "age": 18,
+        "icon": "Jett.jpg",
+        "image": "Jett.jpg",
+        "info": "Very old indoor male Dachshund. Lives together with Louie, Henry and Wilhelmina on 18th floor appartment overlooking A'dam central and harbour. "
+    },
+    {
+        "id": 26,
+        "name": "Kirke",
+        "description": "Chicken",
+        "age": 6,
+        "icon": "Kirke.jpg",
+        "image": "Kirke.jpg",
+        "info": "Kirke, a made chicken in Koblenz. Last in the hacking order of the girls, first under my favourites.  "
+    },
+    {
+        "id": 27,
+        "name": "Lea",
+        "description": "cat girl",
+        "age": 13,
+        "icon": "Lea.jpg",
+        "image": "Lea.jpg",
+        "info": "Tiny little black cat. Goes in and out on her own. LOVES cuddles."
+    },
+    {
+        "id": 28,
+        "name": "Lea&Lara",
+        "description": "cat girl",
+        "age": 13,
+        "icon": "LeaLara.jpg",
+        "image": "LeaLara.jpg",
+        "info": "Lea & Lara are sisters and live together with Martha, an australian sheppard. They like to go in and out to their liking. When it comes to cuddling, the cats Lea and Lara are winner and still champion."
+    },
+    {
+        "id": 29,
+        "name": "Louie",
+        "description": "Dachshund",
+        "age": 6,
+        "icon": "Louie.jpg",
+        "image": "Louie.jpg",
+        "info": "Dachshund. Does walks but likes to be back home on the sofa. Lives together with Jet, Henry and Wilhelmina on 18th floor appartment overlooking A'dam central and harbour. "
+    },
+    {
+        "id": 30,
+        "name": "Louie&Jones",
+        "description": "Bracco italiano",
+        "age": 3,
+        "icon": "Louis&Jones.jpg",
+        "image": "Louis&Jones.jpg",
+        "info": "Louie & Jones are brothers. They are very affectionate and energetic. It took them not even 1 hour to get used to us. They like to run freely in the garden, returning every few minutes to check if we are still around and to ask for their cuddles. "
+    },
+    {
+        "id": 31,
+        "name": "Luigi",
+        "description": "Bengal cat",
+        "age": 13,
+        "icon": "Luigi.jpg",
+        "image": "Luigi.jpg",
+        "info": "Beautiful tomcat. He was very shy at the start. Strange new humans in my house! Can I trust them? He relaxed after a while and it was quite heart warming to see him coming and ask for cuddles. In the end, he kept following us around, joining us whenever we were working on the notebook or watching TV on the sofa"
+    },
+    {
+        "id": 32,
+        "name": "Martha",
+        "description": "Australian sheppard",
+        "age": 12,
+        "icon": "Martha.jpg",
+        "image": "Martha.jpg",
+        "info": "Martha, an australian sheppard. She is well behaved, easy to walk with (even along bicycle) and great fun to cuddle."
+    },
+    {
+        "id": 33,
+        "name": "Martha2",
+        "description": "Australian sheppard",
+        "age": 12,
+        "icon": "Martha2.jpg",
+        "image": "Martha2.jpg",
+        "info": "see Martha. "
+    },
+    {
+        "id": 34,
+        "name": "Mila",
+        "description": "Labrador retriever",
+        "age": 9,
+        "icon": "Mila.jpg",
+        "image": "Mila.jpg",
+        "info": "Mila lives together with Sam, a labradoodle. Mila is more settled down. She is senior and puts Sam into place when she doesn't behave properly. Once Mila even told Sam off when Sam tried to pinch some food out of the store room. We took Mila and Sam on leash on our short walks in the neighbourhood. That's when they tend to pull a bit. On our long walks at the beach, both run free chasing balls and digging holes in the sand. Both loves cuddles"
+    },
+    {
+        "id": 35,
+        "name": "Neo",
+        "description": "cat",
+        "age": 5,
+        "icon": "Neo.jpg",
+        "image": "Neo.jpg",
+        "info": "Neo is a tiny black tomcat. Easy to care. Very self-sufficient; comes and goes as he pleases. Nevertheless, likes cuddling very much (second to food) and asks for it. We were more than willing to obey :-) . Sooo cute. Only cat ever joining me on my walks (with Eko). "
+    },
+    {
+        "id": 36,
+        "name": "Purzel",
+        "description": "cat",
+        "age": 4,
+        "icon": "Purzel.jpg",
+        "image": "Purzel.jpg",
+        "info": "Purzel, a 4 year old tomcat, has been a bit shy in the beginning. Once he realized that we would be the ones to open the food can in the near future, he became more trusting. In the evenings or after a night out, he always curled up right next to uson the sofa and asked for cuddles. He also tells you when he doesn't like it ;-) "
+    },
+    {
+        "id": 37,
+        "name": "Sam",
+        "description": "Labradoodle",
+        "age": 3,
+        "icon": "Sam.jpg",
+        "image": "Sam.jpg",
+        "info": "Sam lives together with Mila. Sam made us laugh a lot. She is very energetic, a great jumper (flying Sam:-) and sometimes jealous when Mila gets more attention."
+    },
+    {
+        "id": 38,
+        "name": "Speck",
+        "description": "Golden retriever",
+        "age": 15,
+        "icon": "Speck.jpg",
+        "image": "Speck.jpg",
+        "info": "A very kind and pleasant dog. He is quite old now and needs his medicine. The walks are very slow and short. And sometimes he needs support climbing steps. Nevertheless, such a good-natured character.   "
+    },
+    {
+        "id": 39,
+        "name": "Summer",
+        "description": "Cocker spaniel",
+        "age": 5,
+        "icon": "Summer.jpg",
+        "image": "Summer.jpg",
+        "info": "Such a lovely and affectionate lady dog. She is a real sunshine and has made her way into our hearts. Always cheerful and always eager to join us wherever we go. It is really hard to be unhappy in her company. "
+    },
+    {
+        "id": 40,
+        "name": "Tenzing",
+        "description": "mix breed cat",
+        "age": 18,
+        "icon": "Tenzing.jpg",
+        "image": "Tenzing.jpg",
+        "info": "Tenzing is of high age and is very deaf. He is very affectionate and loves cuddles, laps and to be stroked. "
+    },
+    {
+        "id": 41,
+        "name": "Waffles",
+        "description": "cat, mix breed",
+        "age": 6,
+        "icon": "Waffles.jpg",
+        "image": "Waffles.jpg",
+        "info": "Waffles, welcomed us right away, asking for cuddles. And she followed us around wherever we went.  "
+    },
+    {
+        "id": 42,
+        "name": "Wrigley",
+        "description": "dog, mix breed",
+        "age": 12,
+        "icon": "Wrigley.jpg",
+        "image": "Wrigley.jpg",
+        "info": "Wrigley was a bit shy in the beginning but became very trusting and affectionate over time. She won our hearts.  "
+    }
+
+]
