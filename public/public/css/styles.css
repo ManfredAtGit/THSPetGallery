@@ -1,0 +1,46 @@
+.slick-prev:before, .slick-next:before {
+    font-family: 'slick';
+    font-size: 20px;
+    line-height: 1;
+    opacity: 0.75;
+    background-color: rgba(179, 198, 212, 0.9);
+    color: black; /* Changed to black for better visibility */
+    -webkit-font-smoothing: antialiased;
+  }
+
+/* Bright Mode (default) */
+body.bright-mode {
+  --background-color: #ffffff;
+  --text-color: #000000;
+  --main-photo-border: #cccccc;
+  --map-border: #cccccc;
+  --text-info-background: #f0f0f0;
+}
+
+/* Dark Mode */
+body.dark-mode {
+  --background-color: #333333;
+  --text-color: #ffffff;
+  --main-photo-border: #666666;
+  --map-border: #666666;
+  --text-info-background: #333333;
+}
+
+/* Apply the variables */
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.MainPhotoContainer {
+  border: 1px solid var(--main-photo-border);
+}
+
+.MapContainerWrapper {
+  border: 1px solid var(--map-border);
+}
+
+.TextInfo {
+  background-color: var(--text-info-background); /* Add this line */
+}
+  

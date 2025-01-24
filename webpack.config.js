@@ -1,8 +1,15 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+<<<<<<< HEAD
 
 module.exports = {
   mode: 'development', // Change this to 'production' or 'none' as needed
+=======
+const CopyWebpackPlugin = require('copy-webpack-plugin');
+
+module.exports = {
+  mode: 'production', // Change this to 'development' or 'none' as needed
+>>>>>>> 4c392e3 (foto gallery with map extension, complete pet list)
   entry: './src/index.js',
   output: {
     path: path.resolve(__dirname, 'build'),
@@ -37,8 +44,11 @@ module.exports = {
   },
   resolve: {
     extensions: ['.js', '.jsx'],
+<<<<<<< HEAD
   },
   resolve: {
+=======
+>>>>>>> 4c392e3 (foto gallery with map extension, complete pet list)
     alias: {
       'styled-components': path.resolve(__dirname, 'node_modules', 'styled-components'),
     },
@@ -49,6 +59,17 @@ module.exports = {
       template: './public/index.html',
       inject: 'body', // Ensure the script tag is injected at the end of the body
     }),
+<<<<<<< HEAD
+=======
+    
+    new CopyWebpackPlugin({
+      patterns: [
+        { from: 'public/images', to:'images'},
+        { from: 'public/css', to: 'css'},
+      ],
+    }),
+    
+>>>>>>> 4c392e3 (foto gallery with map extension, complete pet list)
   ],
   devServer: {
     //contentBase: path.join(__dirname, 'dist'),
@@ -59,6 +80,10 @@ module.exports = {
     port: 9000,
     hot: true,
   },
+<<<<<<< HEAD
   mode: 'development',
+=======
+  //mode: 'development',
+>>>>>>> 4c392e3 (foto gallery with map extension, complete pet list)
   devtool: 'source-map',
 };

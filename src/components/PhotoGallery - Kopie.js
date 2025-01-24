@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import React, { useState, useEffect } from 'react';
+=======
+import React, { useState, useEffect, useRef } from 'react';
+>>>>>>> 4c392e3 (foto gallery with map extension, complete pet list)
 import styled from 'styled-components';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
@@ -7,6 +11,10 @@ import 'slick-carousel/slick/slick-theme.css';
 const PhotoGallery = ({ data }) => {
   const [photos, setPhotos] = useState([]);
   const [currentPhoto, setCurrentPhoto] = useState(null);
+<<<<<<< HEAD
+=======
+  const sliderRef = useRef(null); //add reference to slider component
+>>>>>>> 4c392e3 (foto gallery with map extension, complete pet list)
 
   useEffect(() => {
     setPhotos(data);
@@ -45,21 +53,45 @@ const PhotoGallery = ({ data }) => {
     afterChange: (index) => setCurrentPhoto(photos[index]),
   };
 
+<<<<<<< HEAD
+=======
+  // to synchronize slider position when main photo changed with next or prev arrow
+  const handlePrevClick = () => {
+    const newIndex = (currentPhoto.id - 2 + photos.length) % photos.length;
+    setCurrentPhoto(photos[newIndex]);
+    sliderRef.current.slickGoTo(newIndex);
+  };
+
+  const handleNextClick = () => {
+    const newIndex = currentPhoto.id % photos.length;
+    setCurrentPhoto(photos[newIndex]);
+    sliderRef.current.slickGoTo(newIndex);
+  };
+
+>>>>>>> 4c392e3 (foto gallery with map extension, complete pet list)
   if (!currentPhoto) {
     return <div>Loading...</div>;
   }
 
   return (
     <GalleryContainer>
+<<<<<<< HEAD
       <ThumbnailSlider {...settings}>
         {photos.map((photo) => (
           <ThumbnailWrapper key={photo.id}>
             <Thumbnail key={photo.id} src={`/images/thumbnails/${photo.icon}`} alt={photo.name} />
+=======
+      <ThumbnailSlider ref={sliderRef} {...settings}>
+        {photos.map((photo) => (
+          <ThumbnailWrapper key={photo.id}>
+            <Thumbnail key={photo.id} src={`images/thumbnails/${photo.icon}`} alt={photo.name} loading="lazy" />
+>>>>>>> 4c392e3 (foto gallery with map extension, complete pet list)
             <Caption>{photo.name}</Caption>
           </ThumbnailWrapper>
         ))}
       </ThumbnailSlider>
       <MainPhotoContainer>
+<<<<<<< HEAD
         <MainPhoto src={`/images/fotos/${currentPhoto.image}`} alt={currentPhoto.name} />
         <Navigation>
           <Arrow onClick={() => setCurrentPhoto(photos[(currentPhoto.id - 2 + photos.length) % photos.length])}>
@@ -69,6 +101,21 @@ const PhotoGallery = ({ data }) => {
             &gt;
           </Arrow>
         </Navigation>
+=======
+        <MainPhoto src={`images/fotos/${currentPhoto.image}`} alt={currentPhoto.name} loading="lazy" />
+        <Navigation>
+          <Arrow onClick={handlePrevClick}>
+            &lt;
+          </Arrow>
+          <Arrow onClick={handleNextClick}>
+            &gt;
+          </Arrow>
+        </Navigation>
+        <TextInfo> 
+          <TextHeader>{currentPhoto.name}, {currentPhoto.description}, {currentPhoto.age}</TextHeader>
+          <TextContent>{currentPhoto.info}</TextContent> 
+        </TextInfo>
+>>>>>>> 4c392e3 (foto gallery with map extension, complete pet list)
       </MainPhotoContainer>
     </GalleryContainer>
   );
@@ -78,12 +125,24 @@ const GalleryContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+<<<<<<< HEAD
 `;
 
 const ThumbnailSlider = styled(Slider)`
   width: 80%;
   height: 120px; /* Adjusted height */
   margin-bottom: 20px;
+=======
+  width: 100%; /* Make container responsive */
+`;
+
+const ThumbnailSlider = styled(Slider)`
+  width: 90%;
+  height: 100px; /* Adjusted height */
+  margin-bottom: 20px;
+  display: flex;
+  gap: 10px;
+>>>>>>> 4c392e3 (foto gallery with map extension, complete pet list)
 `;
 
 const ThumbnailWrapper = styled.div`
@@ -93,6 +152,10 @@ const ThumbnailWrapper = styled.div`
   justify-content: center;
   align-items: center;
   overflow: hidden;
+<<<<<<< HEAD
+=======
+  /* margin: 0 10px;  */
+>>>>>>> 4c392e3 (foto gallery with map extension, complete pet list)
 `;
 
 const Thumbnail = styled.img`
@@ -115,13 +178,23 @@ const Caption = styled.div`
 
 const MainPhotoContainer = styled.div`
   position: relative;
+<<<<<<< HEAD
   width: 500px;
   height: 500px;
+=======
+  width: 100%;
+  max-width: 500px; /* Limit maximum width */
+  height: auto; /* Adjust height automatically */
+>>>>>>> 4c392e3 (foto gallery with map extension, complete pet list)
 `;
 
 const MainPhoto = styled.img`
   width: 100%;
+<<<<<<< HEAD
   height: 100%;
+=======
+  height: auto;
+>>>>>>> 4c392e3 (foto gallery with map extension, complete pet list)
   object-fit: cover;
 `;
 
@@ -171,4 +244,25 @@ const PrevArrow = styled.div`
   z-index: 1;
 `;
 
+<<<<<<< HEAD
+=======
+const TextInfo = styled.div`
+  margin-top: 20px; 
+  max-height: 120px; /* Maximum height for the text area */ 
+  overflow-y: auto; /* Enable scrolling when text exceeds the limits */ 
+  padding: 10px; 
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */ 
+  border-radius: 5px; /* Rounded corners */ 
+`;
+
+const TextHeader = styled.div`
+  font-weight: bold; 
+  margin-bottom: 10px; 
+`;
+
+const TextContent = styled.div`
+  white-space: pre-wrap; /* Preserve whitespace and line breaks */ 
+`;
+
+>>>>>>> 4c392e3 (foto gallery with map extension, complete pet list)
 export default PhotoGallery;
