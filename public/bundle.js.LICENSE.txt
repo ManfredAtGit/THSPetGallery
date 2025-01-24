@@ -1,11 +1,8 @@
-<<<<<<< HEAD
-=======
 /* @preserve
  * Leaflet 1.9.4, a JS library for interactive maps. https://leafletjs.com
  * (c) 2010-2023 Vladimir Agafonkin, (c) 2010-2011 CloudMade
  */
 
->>>>>>> 4c392e3 (foto gallery with map extension, complete pet list)
 /*!
 	Copyright (c) 2018 Jed Watson.
 	Licensed under the MIT License (MIT), see

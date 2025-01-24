@@ -8,36 +8,21 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-<<<<<<< HEAD
-  "repository": { 
-    "type": "git", 
-    "url": "https://github.com/ManfredAtGit/THSPetGallery.git" 
-  },
-
-  "homepage": "https://manfredatgit.github.io/THSPetGallery/",
-
-
-=======
   "repository": {
     "type": "git",
     "url": "https://github.com/ManfredAtGit/THSPetGallery.git"
   },
   "homepage": "https://manfredatgit.github.io/THSPetGallery/",
->>>>>>> 4c392e3 (foto gallery with map extension, complete pet list)
   "keywords": [],
   "author": "Manfred",
   "license": "ISC",
   "description": "",
   "dependencies": {
-<<<<<<< HEAD
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-=======
     "leaflet": "^1.9.4",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-leaflet": "^5.0.0",
->>>>>>> 4c392e3 (foto gallery with map extension, complete pet list)
+    "react-leaflet-markercluster": "^5.0.0-rc.0",
     "react-slick": "^0.30.3",
     "slick-carousel": "^1.8.1",
     "styled-components": "^6.1.14"
@@ -47,10 +32,7 @@
     "@babel/preset-env": "^7.26.0",
     "@babel/preset-react": "^7.26.3",
     "babel-loader": "^9.2.1",
-<<<<<<< HEAD
-=======
     "copy-webpack-plugin": "^12.0.2",
->>>>>>> 4c392e3 (foto gallery with map extension, complete pet list)
     "css-loader": "^7.1.2",
     "file-loader": "^6.2.0",
     "gh-pages": "^6.3.0",
