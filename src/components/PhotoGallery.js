@@ -122,6 +122,11 @@ const ThumbnailSlider = styled(Slider)`
   margin-bottom: 20px;
   display: flex;
   gap: 10px;
+
+  @media (max-width: 768px) {
+    width: 100%;
+    height: 80px; /* Adjust height for mobile */
+  }
 `;
 
 const ThumbnailWrapper = styled.div`
@@ -131,7 +136,11 @@ const ThumbnailWrapper = styled.div`
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  /* margin: 0 10px;  */
+  
+  @media (max-width: 768px) {
+    width: 40px;
+    height: 60px; /* Adjust height for mobile */
+  }
 `;
 
 const Thumbnail = styled.img`
@@ -140,6 +149,11 @@ const Thumbnail = styled.img`
   object-fit: cover;
   cursor: pointer;
   aspect-ratio: 1 / 1;
+
+  @media (max-width: 768px) {
+    width: 40px;
+    height: 40px; /* Adjust size for mobile */
+  }
 `;
 
 const Caption = styled.div`
@@ -150,12 +164,20 @@ const Caption = styled.div`
   color: white; /* White text color */
   padding: 2px 5px; /* Padding for better readability */
   border-radius: 3px; /* Rounded corners */
+
+  @media (max-width: 768px) {
+    font-size: 0.7rem; /* Adjust font size for mobile */
+  }
 `;
 
 const ContentContainer = styled.div`
   display: flex;
   width: 100%;
   max-width: 1000px; /* Adjust as needed */
+
+  @media (max-width: 768px) {
+    flex-direction: column; /* Stack elements vertically on mobile */
+  }
 `;
 
 const MainPhotoContainer = styled.div`
@@ -165,13 +187,23 @@ const MainPhotoContainer = styled.div`
   /* height: auto; */ /* Adjust height automatically */
   height: 500px; 
   margin-right: 20px; /* Add margin to the right */
+
+  @media (max-width: 768px) {
+    width: 100%;
+    height: auto; /* Adjust height for mobile */
+    margin-right: 0; /* Remove margin for mobile */
+    margin-bottom: 20px; /* Add margin to the bottom for mobile */
+  }
 `;
 
 const MainPhoto = styled.img`
   width: 100%;
   height: 100%;
-  /* height: auto; */
-  object-fit: cover;
+  object-fit: contain; // ensure foto is fully displayed and scaled if necessary
+
+  @media (max-width: 768px) {
+    height: auto; /* Adjust height for mobile */
+  }
 `;
 
 const Navigation = styled.div`
@@ -192,41 +224,16 @@ const Arrow = styled.div`
   border-radius: 50%; /* Rounded shape */
 `;
 
-const NextArrow = styled.div`
-  position: absolute;
-  top: 50%;
-  right: 0;
-  transform: translateY(-50%);
-  cursor: pointer;
-  font-size: 2rem;
-  color: black; /* Changed to black for better visibility */
-  background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent white background */
-  padding: 10px;
-  border-radius: 50%; /* Rounded shape */
-  z-index: 1;
-`;
-
-const PrevArrow = styled.div`
-  position: absolute;
-  top: 50%;
-  left: 0;
-  transform: translateY(-50%);
-  cursor: pointer;
-  font-size: 2rem;
-  color: black; /* Changed to black for better visibility */
-  background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent white background */
-  padding: 10px;
-  border-radius: 50%; /* Rounded shape */
-  z-index: 1;
-`;
-
 const TextInfo = styled.div`
   margin-top: 20px; 
   max-height: 120px; /* Maximum height for the text area */ 
   overflow-y: auto; /* Enable scrolling when text exceeds the limits */ 
   padding: 10px; 
-  /* background-color: rgba(255, 255, 255, 0.8);*/ /* Semi-transparent white background */ 
   border-radius: 5px; /* Rounded corners */ 
+
+  @media (max-width: 768px) {
+    max-height: 100px; /* Adjust height for mobile */
+  }
 `;
 
 const TextHeader = styled.div`
@@ -242,7 +249,42 @@ const MapContainerWrapper = styled.div`
   width: 50%; /* Adjust width to 50% */
   height: 500px; /* Fixed height */
   margin-left: 20px; /* Add margin to the left */
+
+  @media (max-width: 768px) {
+    width: 100%;
+    height: 500px; /* Adjust height for mobile */
+    margin-left: 0; /* Remove margin for mobile */
+  }
 `;
 
+/*
+const NextArrow = styled.div`
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 2rem;
+  color: black; // Changed to black for better visibility 
+  background-color: rgba(255, 255, 255, 0.5); // Semi-transparent white background 
+  padding: 10px;
+  border-radius: 50%; // Rounded shape 
+  z-index: 1;
+`;
+
+const PrevArrow = styled.div`
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 2rem;
+  color: black; // Changed to black for better visibility 
+  background-color: rgba(255, 255, 255, 0.5); // Semi-transparent white background 
+  padding: 10px;
+  border-radius: 50%; // Rounded shape 
+  z-index: 1;
+`;
+*/
 
 export default PhotoGallery;

@@ -52,7 +52,7 @@
         "lat": 51.9570314931211,
         "icon": "Biz.jpg",
         "image": "Biz.jpg",
-        "info": "Biz is a rather big old boy. He sleeps a lot. Biz is a rather large dog. He sleeps a lot. When going for walks he can sometimes be a bit annoying as he pulls very hard on the leash. I started exercises to made him run along the bike. That worked very well."
+        "info": "Biz is a rather big old boy. He sleeps a lot. When going for walks he can sometimes be a bit annoying as he pulls very hard on the leash. I started exercises to made him run along the bike. That worked very well."
     },
     {
         "id": 6,
@@ -74,7 +74,7 @@
         "lat": 51.9570314931211,
         "icon": "Boefje.jpg",
         "image": "Boefje.jpg",
-        "info": "Boefje means Rascal. She lives together with Biz, a german pointer. They do get along each other quite good. Boefje goes in and out. She waits before the door when she wwants to be let in again. "
+        "info": "Boefje means Rascal. She lives together with Biz, a german pointer. They do get along each other quite good. Boefje goes in and out. She waits before the door when she wants to be let in again. "
     },
     {
         "id": 8,
@@ -118,7 +118,7 @@
         "lat": 48.003508502604475,
         "icon": "Charlotte.jpg",
         "image": "Charlotte.jpg",
-        "info": "Charlotte is a 7 year old Beagle girl. Sleeping, eating, sniffing - that's all you need in life. And she likes belly scratching. Walking can sometimes be a challenge as there are so many tracks to follow, corners to sniff at and such. Best to take your time and don't rush. Charlotte lives together with Luigi, a Begal cat. They do like each other."
+        "info": "Charlotte is a 7 year old Beagle girl. Sleeping, eating, sniffing - that's all you need in life. And she likes belly scratching. Walking can sometimes be a challenge as there are so many tracks to follow, corners to sniff at and such. Best to take your time and don't rush. Charlotte lives together with Luigi, a Bengal cat. They do like each other."
     },
     {
         "id": 12,
@@ -200,7 +200,7 @@
     {
         "id": 19,
         "name": "Floky",
-        "description": "Turtel",
+        "description": "Golden Retriever",
         "age": 5,
         "lon": 4.240792746350671,
         "lat": 52.07207454100266,
@@ -283,7 +283,7 @@
         "lat": 50.373084982444205,
         "icon": "Kirke.jpg",
         "image": "Kirke.jpg",
-        "info": "Kirke, a made chicken in Koblenz. Last in the hacking order of the girls, first under my favourites.  "
+        "info": "Kirke, a mad chicken in Koblenz. Last in the hacking order of the girls, first under my favourites.  "
     },
     {
         "id": 27,
@@ -338,7 +338,7 @@
         "lat": 48.003508502604475,
         "icon": "Luigi1.jpg",
         "image": "Luigi1.jpg",
-        "info": "Beautiful tomcat. He was very shy at the start. Strange new humans in my house! Can I trust them? He relaxed after a while and it was quite heart warming to see him coming and ask for cuddles. In the end, he kept following us around, joining us whenever we were working on the notebook or watching TV on the sofa"
+        "info": "Beautiful tomcat. He was very shy at the start. Strange new humans in my house! Can I trust them? He relaxed after a while and it was quite heart warming to see him come and ask for cuddles. In the end, he kept following us around, joining us whenever we were working on the notebook or watching TV on the sofa"
     },
     {
         "id": 32,
@@ -497,7 +497,7 @@
     {
         "id": 46,
         "name": "Mephisto&Fatty",
-        "description": "dog, mix breed",
+        "description": "cats, mix breed",
         "age": 13,
         "lon": 9.00645404796947,
         "lat": 54.506591221517795,
@@ -530,8 +530,8 @@
     {
         "id": 49,
         "name": "Suri",
-        "description": "dog, mix breed",
-        "age": 13,
+        "description": "cat",
+        "age": 10,
         "lon": 9.149564426819298,
         "lat": 51.48628495389147,
         "icon": "Suri.jpg",

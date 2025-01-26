@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-//import './styles.css'; // Import the CSS file
 import styled from 'styled-components';
 import '../../public/css/styles.css';
 
