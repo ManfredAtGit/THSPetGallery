@@ -5,15 +5,33 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import MapComponent from './MapComponent'; // Import the new MapComponent
 
-const PhotoGallery = ({ data }) => {
+
+
+const PhotoGallery = ({ data, sortBy }) => {
   const [photos, setPhotos] = useState([]);
   const [currentPhoto, setCurrentPhoto] = useState(null);
-  const sliderRef = useRef(null); //add reference to slider component
+  //const [sortBy, setSortBy] = useState('id'); // sort criterium
+  const sliderRef = useRef(null); //reference to slider component
+
+  // sorting function
+  const sortPhotos = (photosToSort, sortProperty) => {
+    return [...photosToSort].sort((a, b) => {
+      if (sortProperty === 'name') {
+        return a.name.localeCompare(b.name);
+      }
+      if (sortProperty === 'date') {
+        return new Date(a.date) - new Date(b.date);
+      }
+      // Default to id sorting
+      return a.id - b.id;
+    });
+  };
 
   useEffect(() => {
-    setPhotos(data);
-    setCurrentPhoto(data[0]);
-  }, [data]);
+    const sortedPhotos = sortPhotos(data, sortBy);
+    setPhotos(sortedPhotos);
+    setCurrentPhoto(sortedPhotos[0]);
+  }, [data, sortBy]);
 
   // workaround for aria-hidden problem
   useEffect(() => {
@@ -49,13 +67,15 @@ const PhotoGallery = ({ data }) => {
 
   // to synchronize slider position when main photo changed with next or prev arrow
   const handlePrevClick = () => {
-    const newIndex = (currentPhoto.id - 2 + photos.length) % photos.length;
+    const currentIndex = photos.findIndex(photo => photo === currentPhoto);
+    const newIndex = (currentIndex - 1 + photos.length) % photos.length;
     setCurrentPhoto(photos[newIndex]);
     sliderRef.current.slickGoTo(newIndex);
   };
 
   const handleNextClick = () => {
-    const newIndex = currentPhoto.id % photos.length;
+    const currentIndex = photos.findIndex(photo => photo === currentPhoto);
+    const newIndex = (currentIndex + 1) % photos.length;
     setCurrentPhoto(photos[newIndex]);
     sliderRef.current.slickGoTo(newIndex);
   };
@@ -72,6 +92,7 @@ const PhotoGallery = ({ data }) => {
 
   return (
     <GalleryContainer>
+
       <ThumbnailSlider ref={sliderRef} {...settings}>
         {photos.map((photo) => (
           <ThumbnailWrapper key={photo.id}>
@@ -114,6 +135,9 @@ const GalleryContainer = styled.div`
   flex-direction: column;
   align-items: center;
   width: 100%; /* Make container responsive */
+  * {
+    cursor: default;
+  }
 `;
 
 const ThumbnailSlider = styled(Slider)`
@@ -257,34 +281,7 @@ const MapContainerWrapper = styled.div`
   }
 `;
 
-/*
-const NextArrow = styled.div`
-  position: absolute;
-  top: 50%;
-  right: 0;
-  transform: translateY(-50%);
-  cursor: pointer;
-  font-size: 2rem;
-  color: black; // Changed to black for better visibility 
-  background-color: rgba(255, 255, 255, 0.5); // Semi-transparent white background 
-  padding: 10px;
-  border-radius: 50%; // Rounded shape 
-  z-index: 1;
-`;
-
-const PrevArrow = styled.div`
-  position: absolute;
-  top: 50%;
-  left: 0;
-  transform: translateY(-50%);
-  cursor: pointer;
-  font-size: 2rem;
-  color: black; // Changed to black for better visibility 
-  background-color: rgba(255, 255, 255, 0.5); // Semi-transparent white background 
-  padding: 10px;
-  border-radius: 50%; // Rounded shape 
-  z-index: 1;
-`;
-*/
 
 export default PhotoGallery;
+
+
