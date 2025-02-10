@@ -2,6 +2,8 @@
     {
         "id": 1,
         "name": "Annabelle",
+        "date": "2024-07-21",
+        "country": "France",
         "description": "Alpaca girl",
         "age": 18,
         "lon": -2.3996494033252302,
@@ -13,6 +15,8 @@
     {
         "id": 2,
         "name": "Bean",
+        "date": "2024-10-19",
+        "country": "Netherlands",
         "description": "Black tomcat, mixed breed",
         "age": 6,
         "lon": 4.401146346131438,
@@ -24,6 +28,8 @@
     {
         "id": 3,
         "name": "Bella",
+        "date": "2021-11-24",
+        "country": "Germany",
         "description": "Electus Parrot, lady",
         "age": 12,
         "lon": 8.881426054304299,
@@ -35,6 +41,8 @@
     {
         "id": 4,
         "name": "Beyonce",
+        "date": "2022-02-25",
+        "country": "Germany",
         "description": "Funny chicken",
         "age": 3,
         "lon": 9.967257228056063,
@@ -46,6 +54,8 @@
     {
         "id": 5,
         "name": "Bismarck, aka Biz",
+        "date": "2023-11-30",
+        "country": "Netherlands",
         "description": "German shorthaired pointer.",
         "age": 12,
         "lon": 5.835588687379251,
@@ -57,6 +67,8 @@
     {
         "id": 6,
         "name": "Boadie",
+        "date": "2022-02-25",
+        "country": "Germany",
         "description": "Cocker spaniel.",
         "age": 10,
         "lon": 9.967257228056063,
@@ -68,6 +80,8 @@
     {
         "id": 7,
         "name": "Boefje",
+        "date": "2023-11-30",
+        "country": "Netherlands",
         "description": "Lady Cat",
         "age": 5,
         "lon": 5.835588687379251,
@@ -79,6 +93,8 @@
     {
         "id": 8,
         "name": "Bunnies",
+        "date": "2022-04-14",
+        "country": "Germany",
         "description": "Bunnies",
         "age": 4,
         "lon": 7.543541447702308,
@@ -90,6 +106,8 @@
     {
         "id": 9,
         "name": "Button",
+        "date": "2024-07-21",
+        "country": "France",
         "description": "Alpaca boy",
         "age": 13,
         "lon": -2.3996494033252302,
@@ -101,6 +119,8 @@
     {
         "id": 10,
         "name": "Carapatte",
+        "date": "2024-07-04",
+        "country": "Luxembourg",
         "description": "Turtle",
         "age": 20,
         "lon": 6.138636792194074,
@@ -112,6 +132,8 @@
     {
         "id": 11,
         "name": "Charlotte",
+        "date": "2024-12-22",
+        "country": "Germany",
         "description": "Beagle",
         "age": 7,
         "lon": 11.336979083424398,
@@ -123,6 +145,8 @@
     {
         "id": 12,
         "name": "Chica&Rosie",
+        "date": "2024-07-21",
+        "country": "France",
         "description": "Alpaca girl",
         "age": 16,
         "lon": -2.3996494033252302,
@@ -134,6 +158,8 @@
     {
         "id": 13,
         "name": "Chicken-HBosch",
+        "date": "2023-04-27",
+        "country": "Netherlands",
         "description": "Chicken",
         "age": 5,
         "lon": 5.479716247449919,
@@ -145,6 +171,8 @@
     {
         "id": 14,
         "name": "Chicken-Koblenz",
+        "date": "2022-04-14",
+        "country": "Germany",
         "description": "Chicken",
         "age": 5,
         "lon": 7.543541447702308,
@@ -156,6 +184,8 @@
     {
         "id": 15,
         "name": "Chicken-Koblenz-2",
+        "date": "2022-10-13",
+        "country": "Germany",
         "description": "Chicken",
         "age": 5,
         "lon": 7.528425592260216,
@@ -167,6 +197,8 @@
     {
         "id": 16,
         "name": "Cinnamon",
+        "date": "2023-10-13",
+        "country": "Netherlands",
         "description": "mixed breed, american staffordshire",
         "age": 10,
         "lon": 4.3949333415388905,
@@ -178,6 +210,8 @@
     {
         "id": 17,
         "name": "Ebony",
+        "date": "2024-07-21",
+        "country": "France",
         "description": "Alpaca girl",
         "age": 12,
         "lon": -2.3996494033252302,
@@ -189,6 +223,8 @@
     {
         "id": 18,
         "name": "Eko",
+        "date": "2023-09-05",
+        "country": "Switzerland",
         "description": "Golden Retriever",
         "age": 8,
         "lon": 6.834764474995741,
@@ -200,6 +236,8 @@
     {
         "id": 19,
         "name": "Floky",
+        "date": "2024-02-16",
+        "country": "Netherlands",
         "description": "Golden Retriever",
         "age": 5,
         "lon": 4.240792746350671,
@@ -211,6 +249,8 @@
     {
         "id": 20,
         "name": "Gina",
+        "date": "2024-11-26",
+        "country": "Germany",
         "description": "Shetland pony",
         "age": 31,
         "lon": 8.470092875984855,
@@ -222,6 +262,8 @@
     {
         "id": 21,
         "name": "Granny",
+        "date": "2024-11-26",
+        "country": "Germany",
         "description": "German riding pony",
         "age": 30,
         "lon": 8.470092875984855,
@@ -233,6 +275,8 @@
     {
         "id": 22,
         "name": "Hannes&Jannes",
+        "date": "2023-04-27",
+        "country": "Netherlands",
         "description": "Ghoats",
         "age": 6,
         "lon": 5.479716247449919,
@@ -244,6 +288,8 @@
     {
         "id": 23,
         "name": "Hannes",
+        "date": "2023-04-27",
+        "country": "Netherlands",
         "description": "Ghoat",
         "age": 6,
         "lon": 5.479716247449919,
@@ -255,6 +301,8 @@
     {
         "id": 24,
         "name": "Henry&Wilhelmina",
+        "date": "2023-12-19",
+        "country": "Netherlands",
         "description": "Maine Coone cats",
         "age": 3,
         "lon": 4.945341738516996,
@@ -266,6 +314,8 @@
     {
         "id": 25,
         "name": "Jett",
+        "date": "2023-12-19",
+        "country": "Netherlands",   
         "description": "Dachshund",
         "age": 18,
         "lon": 4.945341738516996,
@@ -277,6 +327,8 @@
     {
         "id": 26,
         "name": "Kirke",
+        "date": "2022-04-14",
+        "country": "Germany",
         "description": "Chicken",
         "age": 6,
         "lon": 7.528425592260216,
@@ -288,6 +340,8 @@
     {
         "id": 27,
         "name": "Lea",
+        "date": "2022-04-14",
+        "country": "Germany",
         "description": "cat girl",
         "age": 13,
         "lon": 7.528425592260216,
@@ -299,6 +353,8 @@
     {
         "id": 28,
         "name": "Lea&Lara",
+        "date": "2022-10-13",
+        "country": "Germany",
         "description": "cat girl",
         "age": 13,
         "lon": 7.528425592260216,
@@ -310,6 +366,8 @@
     {
         "id": 29,
         "name": "Louie",
+        "date": "2023-12-19",
+        "country": "Netherlands",
         "description": "Dachshund",
         "age": 6,
         "lon": 4.945341738516996,
@@ -321,6 +379,8 @@
     {
         "id": 30,
         "name": "Louie&Jones",
+        "date": "2023-06-09",
+        "country": "Belgium",
         "description": "Bracco italiano",
         "age": 3,
         "lon": 5.235674053272854,
@@ -331,7 +391,9 @@
     },
     {
         "id": 31,
-        "name": "Luigi1",
+        "name": "Luigi",
+        "date": "2024-12-22",
+        "country": "Germany",
         "description": "Bengal cat",
         "age": 13,
         "lon": 11.336979083424398,
@@ -343,6 +405,8 @@
     {
         "id": 32,
         "name": "Martha",
+        "date": "2022-04-14",
+        "country": "Germany",
         "description": "Australian sheppard",
         "age": 12,
         "lon": 7.543541447702308,
@@ -354,6 +418,8 @@
     {
         "id": 33,
         "name": "Martha2",
+        "date": "2022-10-13",
+        "country": "Germany",
         "description": "Australian sheppard",
         "age": 12,
         "lon": 7.528425592260216,
@@ -365,6 +431,8 @@
     {
         "id": 34,
         "name": "Mila",
+        "date": "2024-04-10",
+        "country": "Belgium",
         "description": "Labrador retriever",
         "age": 9,
         "lon": 3.206915665039187,
@@ -376,6 +444,8 @@
     {
         "id": 35,
         "name": "Neo",
+        "date": "2023-09-05",
+        "country": "Switzerland",
         "description": "cat",
         "age": 5,
         "lon": 6.834764474995741,
@@ -387,6 +457,8 @@
     {
         "id": 36,
         "name": "Purzel",
+        "date": "2024-11-26",
+        "country": "Germany",
         "description": "cat",
         "age": 4,
         "lon": 8.470092875984855,
@@ -398,6 +470,8 @@
     {
         "id": 37,
         "name": "Sam",
+        "date": "2024-04-10",
+        "country": "Belgium",
         "description": "Labradoodle",
         "age": 3,
         "lon": 3.206915665039187,
@@ -409,6 +483,8 @@
     {
         "id": 38,
         "name": "Speck",
+        "date": "2024-07-04",
+        "country": "Luxembourg",
         "description": "Golden retriever",
         "age": 15,
         "lon": 6.138636792194074,
@@ -420,6 +496,8 @@
     {
         "id": 39,
         "name": "Summer",
+        "date": "2022-10-01",
+        "country": "Netherlands",
         "description": "Cocker spaniel",
         "age": 5,
         "lon": 4.633715410834703,
@@ -431,6 +509,8 @@
     {
         "id": 40,
         "name": "Tenzing",
+        "date": "2024-07-21",
+        "country": "France",
         "description": "mix breed cat",
         "age": 18,
         "lon": -2.3996494033252302,
@@ -442,6 +522,8 @@
     {
         "id": 41,
         "name": "Waffles",
+        "date": "2024-10-19",
+        "country": "Netherlands",
         "description": "cat, mix breed",
         "age": 6,
         "lon": 4.401146346131438,
@@ -453,6 +535,8 @@
     {
         "id": 42,
         "name": "Wrigley",
+        "date": "2024-10-19",
+        "country": "Netherlands",
         "description": "dog, mix breed",
         "age": 12,
         "lon": 4.401146346131438,
@@ -464,6 +548,8 @@
     {
         "id": 43,
         "name": "Birds-Warburg",
+        "date": "2022-08-18",
+        "country": "Germany",
         "description": "budgies",
         "age": 4,
         "lon": 9.149564426819298,
@@ -475,6 +561,8 @@
     {
         "id": 44,
         "name": "Chicken-Warburg",
+        "date": "2022-08-18",
+        "country": "Germany",
         "description": "mixed",
         "age": 4,
         "lon": 9.149564426819298,
@@ -486,6 +574,8 @@
     {
         "id": 45,
         "name": "Louis-Lux",
+        "date": "2021-12-17",
+        "country": "Luxembourg",
         "description": "Australian shepard",
         "age": 10,
         "lon": 6.119348290099437,
@@ -497,6 +587,8 @@
     {
         "id": 46,
         "name": "Mephisto&Fatty",
+        "date": "2022-09-23",
+        "country": "Germany",
         "description": "cats, mix breed",
         "age": 13,
         "lon": 9.00645404796947,
@@ -508,6 +600,8 @@
     {
         "id": 47,
         "name": "Mowgli",
+        "date": "2022-07-12",
+        "country": "France",
         "description": "Border Terrier",
         "age": 9,
         "lon": 1.821488184987038,
@@ -519,6 +613,8 @@
     {
         "id": 48,
         "name": "Pico",
+        "date": "2022-08-18",
+        "country": "Germany",
         "description": "cat",
         "age": 10,
         "lon": 9.149564426819298,
@@ -530,6 +626,8 @@
     {
         "id": 49,
         "name": "Suri",
+        "date": "2022-08-18",
+        "country": "Germany",
         "description": "cat",
         "age": 10,
         "lon": 9.149564426819298,
@@ -541,6 +639,8 @@
     {
         "id": 50,
         "name": "Hudson",
+        "date": "2024-04-21",
+        "country": "Germany",
         "description": "dog, labrador",
         "age": 2,
         "lon": 7.62281431826483,
@@ -552,6 +652,8 @@
     {
         "id": 51,
         "name": "Fred",
+        "date": "2025-02-01",
+        "country": "Germany",
         "description": "dog, longhair pointer",
         "age": 5,
         "lon": 12.978648023670669,
@@ -562,7 +664,9 @@
     },
     {
         "id": 52,
-        "name": "(some more) Fred",
+        "name": "Fred",
+        "date": "2025-02-01",
+        "country": "Germany",
         "description": "dog, longhair pointer",
         "age": 5,
         "lon": 12.978648023670669,
@@ -574,6 +678,8 @@
     {
         "id": 53,
         "name": "Fred, Remy & Sharky",
+        "date": "2025-02-01",
+        "country": "Germany",
         "description": "dogs and cat",
         "age": 12,
         "lon": 12.978648023670669,
@@ -585,6 +691,8 @@
     {
         "id": 54,
         "name": "Ringo, Sumi and Fuchsi",
+        "date": "2025-02-01",
+        "country": "Germany",
         "description": "horses",
         "age": 20,
         "lon": 12.978648023670669,
@@ -596,6 +704,8 @@
     {
         "id": 55,
         "name": "Ringo, Sumi and Fuchsi",
+        "date": "2025-02-01",
+        "country": "Germany",
         "description": "horses",
         "age": 20,
         "lon": 12.978648023670669,
@@ -607,6 +717,8 @@
     {
         "id": 56,
         "name": "Remy",
+        "date": "2025-02-01",
+        "country": "Germany",
         "description": "dog, mix-breed",
         "age": 15,
         "lon": 12.978648023670669,
@@ -618,6 +730,8 @@
     {
         "id": 57,
         "name": "Sharky",
+        "date": "2025-02-01",
+        "country": "Germany",
         "description": "cat, mix-breed",
         "age": 17,
         "lon": 12.978648023670669,
@@ -629,6 +743,8 @@
     {
         "id": 58,
         "name": "Ringo&Sumi",
+        "date": "2025-02-01",
+        "country": "Germany",
         "description": "horses",
         "age": 20,
         "lon": 12.978648023670669,
@@ -640,6 +756,8 @@
     {
         "id": 59,
         "name": "Ringo",
+        "date": "2025-02-01",
+        "country": "Germany",
         "description": "horses",
         "age": 26,
         "lon": 12.978648023670669,
@@ -647,6 +765,19 @@
         "icon": "Ringo.jpg",
         "image": "Ringo.jpg",
         "info": "Ringo (warmblood, 26yrs) and Sumi (thoroughbred, 18yrs) and Fuchsi (thoroughbred) live together in in an old country house (former a farm) in the middle of a forest near Potsdam. Ringo is top boy and gets fed first."
+    },
+    {
+        "id": 60,
+        "name": "Genna",
+        "date": "2022-07-12",
+        "country": "France",
+        "description": "Border Terrier",
+        "age": 9,
+        "lon": 1.821488184987038,
+        "lat": 50.80469920782534,
+        "icon": "Genna.jpg",
+        "image": "Genna.jpg",
+        "info": "A lovable border terrier. Lives together with Mowgli. Enjoys walking (she decides where to go) and playing with Mowgli."
     }
 
 ]
