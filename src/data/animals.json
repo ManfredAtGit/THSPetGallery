@@ -537,6 +537,116 @@
         "icon": "Suri.jpg",
         "image": "Suri.jpg",
         "info": "Suri lives together with Pico and all the chicken in Warburg. Pico accepted us from the beginning and joined us as much as she could  "
+    },
+    {
+        "id": 50,
+        "name": "Hudson",
+        "description": "dog, labrador",
+        "age": 2,
+        "lon": 7.62281431826483,
+        "lat": 51.49723767393938,
+        "icon": "Hudson2.jpg",
+        "image": "Hudson2.jpg",
+        "info": "Hudson. A playful and lovely chocolate brown teenage labrador boy. We got started to have him run along the bike. Promissing start :-)"
+    },
+    {
+        "id": 51,
+        "name": "Fred",
+        "description": "dog, longhair pointer",
+        "age": 5,
+        "lon": 12.978648023670669,
+        "lat": 52.329236473467304,
+        "icon": "Fred4.jpg",
+        "image": "Fred4.jpg",
+        "info": "(Man)Fred is the sweetest and most affectionate dog you can imagine. A big and charming dog. Likes running, cuddles, feeding. He lives together with Remy and an old cat Sharky and they like each other. He is very popular among neighbours and friends and other dog-walking humans. He is easy and friendly with other dogs we met during our walks. Very sociable. Fred is one of the few dogs we let run off-leash when sitting. He is very good at commands and retturn upon whistling or calling his name."
+    },
+    {
+        "id": 52,
+        "name": "(some more) Fred",
+        "description": "dog, longhair pointer",
+        "age": 5,
+        "lon": 12.978648023670669,
+        "lat": 52.329236473467304,
+        "icon": "Fred7.jpg",
+        "image": "Fred7.jpg",
+        "info": "see Fred. "
+    },
+    {
+        "id": 53,
+        "name": "Fred, Remy & Sharky",
+        "description": "dogs and cat",
+        "age": 12,
+        "lon": 12.978648023670669,
+        "lat": 52.329236473467304,
+        "icon": "Potsdam.jpg",
+        "image": "Potsdam.jpg",
+        "info": "Fred (longhair pointer), Remy (mix breed) and Sharky (cat) live together in an old country house (former farm) in the middle of a forest near Potsdam."
+    },
+    {
+        "id": 54,
+        "name": "Ringo, Sumi and Fuchsi",
+        "description": "horses",
+        "age": 20,
+        "lon": 12.978648023670669,
+        "lat": 52.329236473467304,
+        "icon": "Potsdam3.jpg",
+        "image": "Potsdam3.jpg",
+        "info": "Ringo (warmblood, 26yrs), Sumi (thoroughbred, 18yrs) and Fuchsi (thoroughbred) live together in in an old country house (former farm) in the middle of a forest near Potsdam."
+    },
+    {
+        "id": 55,
+        "name": "Ringo, Sumi and Fuchsi",
+        "description": "horses",
+        "age": 20,
+        "lon": 12.978648023670669,
+        "lat": 52.329236473467304,
+        "icon": "Potsdam4.jpg",
+        "image": "Potsdam4.jpg",
+        "info": "Ringo (warmblood, 26yrs), Sumi (thoroughbred, 18yrs) and Fuchsi (thoroughbred) live together in in an old country house (former farm) in the middle of a forest near Potsdam. Ringo is the alpha and Fuchsi is omega horse in the group."
+    },
+    {
+        "id": 56,
+        "name": "Remy",
+        "description": "dog, mix-breed",
+        "age": 15,
+        "lon": 12.978648023670669,
+        "lat": 52.329236473467304,
+        "icon": "Remy2.jpg",
+        "image": "Remy2.jpg",
+        "info": "Remy lives together with Fred and the cat Sharky in an old country house (former a farm) in the middle of a forest near Potsdam. Remy is already quite old and loves to lie on his cushion. But he really looks forward to our walks. In the company of Fred, he somewhat fades into the background. Fred gets most of the attention."
+    },
+    {
+        "id": 57,
+        "name": "Sharky",
+        "description": "cat, mix-breed",
+        "age": 17,
+        "lon": 12.978648023670669,
+        "lat": 52.329236473467304,
+        "icon": "Sharky.jpg",
+        "image": "Sharky.jpg",
+        "info": "Sharky lives together with the dogs Fred and and Remy in an old country house (former a farm) in the middle of a forest near Potsdam. She gets along quite well with the dogs. They seem to respect her as senior. Sharky is quite old and needs medicine with her meals. Sharky did not like us to fill in for Annabelle and Benjamin, the pet owners, and protested at the start (protest pee). She than however warmed up and joined us whenever we sat on the sofa to sit in our laps. "
+    },
+    {
+        "id": 58,
+        "name": "Ringo&Sumi",
+        "description": "horses",
+        "age": 20,
+        "lon": 12.978648023670669,
+        "lat": 52.329236473467304,
+        "icon": "Ringo&Sumi.jpg",
+        "image": "Ringo&Sumi.jpg",
+        "info": "Ringo (warmblood, 26yrs) and Sumi (thoroughbred, 18yrs) and Fuchsi (thoroughbred) live together in an old country house (former a farm) in the middle of a forest near Potsdam. Ringo and Sumi are best mates."
+    },
+    {
+        "id": 59,
+        "name": "Ringo",
+        "description": "horses",
+        "age": 26,
+        "lon": 12.978648023670669,
+        "lat": 52.329236473467304,
+        "icon": "Ringo.jpg",
+        "image": "Ringo.jpg",
+        "info": "Ringo (warmblood, 26yrs) and Sumi (thoroughbred, 18yrs) and Fuchsi (thoroughbred) live together in in an old country house (former a farm) in the middle of a forest near Potsdam. Ringo is top boy and gets fed first."
     }
 
 ]
