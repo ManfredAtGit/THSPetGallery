@@ -1,4 +1,3 @@
-//import React from 'react';
 import React, { useState } from 'react';
 import styled from 'styled-components';
 import PhotoGallery from './components/PhotoGallery';
@@ -6,17 +5,18 @@ import ThemeToggle from './components/ThemeToggle';
 import animals from './data/animals.json';
 
 const App = () => {
-
   const [sortBy, setSortBy] = useState('id');
   const [selectedCountry, setSelectedCountry] = useState('all');
+  const [selectedPetType, setSelectedPetType] = useState('all');
 
-  // Get unique countries from data
+  // Get unique countries and pet types from data
   const countries = ['all', ...new Set(animals.map(item => item.country))];
+  const petTypes = ['all', ...new Set(animals.map(item => item.type))];
 
-  // Filter data based on selected country
-  const filteredData = selectedCountry === 'all' 
-    ? animals 
-    : animals.filter(item => item.country === selectedCountry);
+  // Filter data based on both selected country and pet type
+  const filteredData = animals
+    .filter(item => selectedCountry === 'all' || item.country === selectedCountry)
+    .filter(item => selectedPetType === 'all' || item.type === selectedPetType);
 
   return (
     <Container>
@@ -30,7 +30,7 @@ const App = () => {
             <option value="date">Sort by Date</option>
           </select>
         </SortingControl>
-        <CountryControl>
+        <FilterControl>
           <select value={selectedCountry} onChange={(e) => setSelectedCountry(e.target.value)}>
             {countries.map(country => (
               <option key={country} value={country}>
@@ -38,35 +38,24 @@ const App = () => {
               </option>
             ))}
           </select>
-        </CountryControl>
+        </FilterControl>
+        <FilterControl>
+          <select value={selectedPetType} onChange={(e) => setSelectedPetType(e.target.value)}>
+            {petTypes.map(type => (
+              <option key={type} value={type}>
+                {type === 'all' ? 'All Pets' : type}
+              </option>
+            ))}
+          </select>
+        </FilterControl>
       </Header>
       <PhotoGallery data={filteredData} sortBy={sortBy} />
     </Container>
   );
-
-/*
-  return (
-    <Container>
-      <h1>Pet Photo Gallery</h1>
-      <Header>
-        <ThemeToggle />
-        <SortingControl>
-          <select value={sortBy} onChange={(e) => setSortBy(e.target.value)}>
-            <option value="id">Sort by ID</option>
-            <option value="name">Sort by Name</option>
-            <option value="date">Sort by Date</option>
-          </select>
-        </SortingControl>
-      </Header>
-      <PhotoGallery data={animals} sortBy={sortBy} />
-    </Container>
-  );
-*/
-
 };
 
-
-const SortingControl = styled.div`
+// Updated styled components
+const FilterControl = styled.div`
   select {
     padding: 4px 8px;
     border-radius: 4px;
@@ -75,32 +64,7 @@ const SortingControl = styled.div`
   }
 `;
 
-const CountryControl = styled(SortingControl)``;
-
-/*
-const SortingControl = styled.div`
-  select {
-    padding: 4px 8px;
-    font-size: 0.9rem;
-    background: ${({ theme }) => theme.body};
-    color: ${({ theme }) => theme.text};
-    border: 1px solid ${({ theme }) => theme.text};
-    border-radius: 4px;
-    transition: all 0.3s ease;
-    cursor: default;
-
-    &:hover {
-      background: ${({ theme }) => theme.text};
-      color: ${({ theme }) => theme.body};
-    }
-
-    option {
-      background: ${({ theme }) => theme.body};
-      color: ${({ theme }) => theme.text};
-    }
-  }
-`;
-*/
+const SortingControl = styled(FilterControl)``;
 
 const Header = styled.header`
   display: flex;
@@ -118,5 +82,3 @@ const Container = styled.div`
 `;
 
 export default App;
-
-

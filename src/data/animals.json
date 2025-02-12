@@ -2,6 +2,7 @@
     {
         "id": 1,
         "name": "Annabelle",
+        "type": "Farm animals",
         "date": "2024-07-21",
         "country": "France",
         "description": "Alpaca girl",
@@ -15,6 +16,7 @@
     {
         "id": 2,
         "name": "Bean",
+        "type": "Cat",
         "date": "2024-10-19",
         "country": "Netherlands",
         "description": "Black tomcat, mixed breed",
@@ -28,6 +30,7 @@
     {
         "id": 3,
         "name": "Bella",
+        "type": "Bird",
         "date": "2021-11-24",
         "country": "Germany",
         "description": "Electus Parrot, lady",
@@ -41,6 +44,7 @@
     {
         "id": 4,
         "name": "Beyonce",
+        "type": "Poultry",
         "date": "2022-02-25",
         "country": "Germany",
         "description": "Funny chicken",
@@ -54,6 +58,7 @@
     {
         "id": 5,
         "name": "Bismarck, aka Biz",
+        "type": "Dog",
         "date": "2023-11-30",
         "country": "Netherlands",
         "description": "German shorthaired pointer.",
@@ -67,6 +72,7 @@
     {
         "id": 6,
         "name": "Boadie",
+        "type": "Dog",
         "date": "2022-02-25",
         "country": "Germany",
         "description": "Cocker spaniel.",
@@ -80,6 +86,7 @@
     {
         "id": 7,
         "name": "Boefje",
+        "type": "Cat",
         "date": "2023-11-30",
         "country": "Netherlands",
         "description": "Lady Cat",
@@ -93,6 +100,7 @@
     {
         "id": 8,
         "name": "Bunnies",
+        "type": "Small animals",
         "date": "2022-04-14",
         "country": "Germany",
         "description": "Bunnies",
@@ -106,6 +114,7 @@
     {
         "id": 9,
         "name": "Button",
+        "type": "Farm animals",
         "date": "2024-07-21",
         "country": "France",
         "description": "Alpaca boy",
@@ -119,6 +128,7 @@
     {
         "id": 10,
         "name": "Carapatte",
+        "type": "Small animals",
         "date": "2024-07-04",
         "country": "Luxembourg",
         "description": "Turtle",
@@ -132,6 +142,7 @@
     {
         "id": 11,
         "name": "Charlotte",
+        "type": "Dog",
         "date": "2024-12-22",
         "country": "Germany",
         "description": "Beagle",
@@ -145,6 +156,7 @@
     {
         "id": 12,
         "name": "Chica&Rosie",
+        "type": "Farm animals",
         "date": "2024-07-21",
         "country": "France",
         "description": "Alpaca girl",
@@ -158,6 +170,7 @@
     {
         "id": 13,
         "name": "Chicken-HBosch",
+        "type": "Poultry",
         "date": "2023-04-27",
         "country": "Netherlands",
         "description": "Chicken",
@@ -171,6 +184,7 @@
     {
         "id": 14,
         "name": "Chicken-Koblenz",
+        "type": "Poultry",
         "date": "2022-04-14",
         "country": "Germany",
         "description": "Chicken",
@@ -184,6 +198,7 @@
     {
         "id": 15,
         "name": "Chicken-Koblenz-2",
+        "type": "Poultry",
         "date": "2022-10-13",
         "country": "Germany",
         "description": "Chicken",
@@ -197,6 +212,7 @@
     {
         "id": 16,
         "name": "Cinnamon",
+        "type": "Dog",
         "date": "2023-10-13",
         "country": "Netherlands",
         "description": "mixed breed, american staffordshire",
@@ -210,6 +226,7 @@
     {
         "id": 17,
         "name": "Ebony",
+        "type": "Farm animals",
         "date": "2024-07-21",
         "country": "France",
         "description": "Alpaca girl",
@@ -223,6 +240,7 @@
     {
         "id": 18,
         "name": "Eko",
+        "type": "Dog",
         "date": "2023-09-05",
         "country": "Switzerland",
         "description": "Golden Retriever",
@@ -236,6 +254,7 @@
     {
         "id": 19,
         "name": "Floky",
+        "type": "Dog",
         "date": "2024-02-16",
         "country": "Netherlands",
         "description": "Golden Retriever",
@@ -249,6 +268,7 @@
     {
         "id": 20,
         "name": "Gina",
+        "type": "Horse",
         "date": "2024-11-26",
         "country": "Germany",
         "description": "Shetland pony",
@@ -262,6 +282,7 @@
     {
         "id": 21,
         "name": "Granny",
+        "type": "Horse",
         "date": "2024-11-26",
         "country": "Germany",
         "description": "German riding pony",
@@ -275,6 +296,7 @@
     {
         "id": 22,
         "name": "Hannes&Jannes",
+        "type": "Farm animals",
         "date": "2023-04-27",
         "country": "Netherlands",
         "description": "Ghoats",
@@ -288,6 +310,7 @@
     {
         "id": 23,
         "name": "Hannes",
+        "type": "Farm animals",
         "date": "2023-04-27",
         "country": "Netherlands",
         "description": "Ghoat",
@@ -301,6 +324,7 @@
     {
         "id": 24,
         "name": "Henry&Wilhelmina",
+        "type": "Cat",
         "date": "2023-12-19",
         "country": "Netherlands",
         "description": "Maine Coone cats",
@@ -314,6 +338,7 @@
     {
         "id": 25,
         "name": "Jett",
+        "type": "Dog",
         "date": "2023-12-19",
         "country": "Netherlands",   
         "description": "Dachshund",
@@ -327,6 +352,7 @@
     {
         "id": 26,
         "name": "Kirke",
+        "type": "Poultry",
         "date": "2022-04-14",
         "country": "Germany",
         "description": "Chicken",
@@ -340,6 +366,7 @@
     {
         "id": 27,
         "name": "Lea",
+        "type": "Cat",
         "date": "2022-04-14",
         "country": "Germany",
         "description": "cat girl",
@@ -353,6 +380,7 @@
     {
         "id": 28,
         "name": "Lea&Lara",
+        "type": "Cat",
         "date": "2022-10-13",
         "country": "Germany",
         "description": "cat girl",
@@ -366,6 +394,7 @@
     {
         "id": 29,
         "name": "Louie",
+        "type": "Dog",
         "date": "2023-12-19",
         "country": "Netherlands",
         "description": "Dachshund",
@@ -379,6 +408,7 @@
     {
         "id": 30,
         "name": "Louie&Jones",
+        "type": "Dog",
         "date": "2023-06-09",
         "country": "Belgium",
         "description": "Bracco italiano",
@@ -392,6 +422,7 @@
     {
         "id": 31,
         "name": "Luigi",
+        "type": "Cat",
         "date": "2024-12-22",
         "country": "Germany",
         "description": "Bengal cat",
@@ -400,11 +431,12 @@
         "lat": 48.003508502604475,
         "icon": "Luigi1.jpg",
         "image": "Luigi1.jpg",
-        "info": "Beautiful tomcat. He was very shy at the start. Strange new humans in my house! Can I trust them? He relaxed after a while and it was quite heart warming to see him come and ask for cuddles. In the end, he kept following us around, joining us whenever we were working on the notebook or watching TV on the sofa"
+        "info": "Beautiful Bengal tomcat. He was very shy at the start. Strange new humans in my house! Can I trust them? He relaxed after a while and it was quite heart warming to see him come and ask for cuddles. In the end, he kept following us around, joining us whenever we were working on the notebook or watching TV on the sofa"
     },
     {
         "id": 32,
         "name": "Martha",
+        "type": "Dog",
         "date": "2022-04-14",
         "country": "Germany",
         "description": "Australian sheppard",
@@ -418,6 +450,7 @@
     {
         "id": 33,
         "name": "Martha2",
+        "type": "Dog",
         "date": "2022-10-13",
         "country": "Germany",
         "description": "Australian sheppard",
@@ -431,6 +464,7 @@
     {
         "id": 34,
         "name": "Mila",
+        "type": "Dog",
         "date": "2024-04-10",
         "country": "Belgium",
         "description": "Labrador retriever",
@@ -444,6 +478,7 @@
     {
         "id": 35,
         "name": "Neo",
+        "type": "Cat",
         "date": "2023-09-05",
         "country": "Switzerland",
         "description": "cat",
@@ -457,6 +492,7 @@
     {
         "id": 36,
         "name": "Purzel",
+        "type": "Cat",
         "date": "2024-11-26",
         "country": "Germany",
         "description": "cat",
@@ -470,6 +506,7 @@
     {
         "id": 37,
         "name": "Sam",
+        "type": "Dog",
         "date": "2024-04-10",
         "country": "Belgium",
         "description": "Labradoodle",
@@ -483,6 +520,7 @@
     {
         "id": 38,
         "name": "Speck",
+        "type": "Dog",
         "date": "2024-07-04",
         "country": "Luxembourg",
         "description": "Golden retriever",
@@ -496,6 +534,7 @@
     {
         "id": 39,
         "name": "Summer",
+        "type": "Dog",
         "date": "2022-10-01",
         "country": "Netherlands",
         "description": "Cocker spaniel",
@@ -509,6 +548,7 @@
     {
         "id": 40,
         "name": "Tenzing",
+        "type": "Cat",
         "date": "2024-07-21",
         "country": "France",
         "description": "mix breed cat",
@@ -522,6 +562,7 @@
     {
         "id": 41,
         "name": "Waffles",
+        "type": "Cat",
         "date": "2024-10-19",
         "country": "Netherlands",
         "description": "cat, mix breed",
@@ -535,6 +576,7 @@
     {
         "id": 42,
         "name": "Wrigley",
+        "type": "Dog",
         "date": "2024-10-19",
         "country": "Netherlands",
         "description": "dog, mix breed",
@@ -548,6 +590,7 @@
     {
         "id": 43,
         "name": "Birds-Warburg",
+        "type": "Bird",
         "date": "2022-08-18",
         "country": "Germany",
         "description": "budgies",
@@ -561,6 +604,7 @@
     {
         "id": 44,
         "name": "Chicken-Warburg",
+        "type": "Poultry",
         "date": "2022-08-18",
         "country": "Germany",
         "description": "mixed",
@@ -574,6 +618,7 @@
     {
         "id": 45,
         "name": "Louis-Lux",
+        "type": "Dog",
         "date": "2021-12-17",
         "country": "Luxembourg",
         "description": "Australian shepard",
@@ -587,6 +632,7 @@
     {
         "id": 46,
         "name": "Mephisto&Fatty",
+        "type": "Cat",
         "date": "2022-09-23",
         "country": "Germany",
         "description": "cats, mix breed",
@@ -600,6 +646,7 @@
     {
         "id": 47,
         "name": "Mowgli",
+        "type": "Dog",
         "date": "2022-07-12",
         "country": "France",
         "description": "Border Terrier",
@@ -613,6 +660,7 @@
     {
         "id": 48,
         "name": "Pico",
+        "type": "Cat",
         "date": "2022-08-18",
         "country": "Germany",
         "description": "cat",
@@ -626,6 +674,7 @@
     {
         "id": 49,
         "name": "Suri",
+        "type": "Cat",
         "date": "2022-08-18",
         "country": "Germany",
         "description": "cat",
@@ -639,6 +688,7 @@
     {
         "id": 50,
         "name": "Hudson",
+        "type": "Dog",
         "date": "2024-04-21",
         "country": "Germany",
         "description": "dog, labrador",
@@ -652,6 +702,7 @@
     {
         "id": 51,
         "name": "Fred",
+        "type": "Dog",
         "date": "2025-02-01",
         "country": "Germany",
         "description": "dog, longhair pointer",
@@ -665,6 +716,7 @@
     {
         "id": 52,
         "name": "Fred",
+        "type": "Dog",
         "date": "2025-02-01",
         "country": "Germany",
         "description": "dog, longhair pointer",
@@ -678,6 +730,7 @@
     {
         "id": 53,
         "name": "Fred, Remy & Sharky",
+        "type": "Dog",
         "date": "2025-02-01",
         "country": "Germany",
         "description": "dogs and cat",
@@ -691,6 +744,7 @@
     {
         "id": 54,
         "name": "Ringo, Sumi and Fuchsi",
+        "type": "Horse",
         "date": "2025-02-01",
         "country": "Germany",
         "description": "horses",
@@ -704,6 +758,7 @@
     {
         "id": 55,
         "name": "Ringo, Sumi and Fuchsi",
+        "type": "Horse",
         "date": "2025-02-01",
         "country": "Germany",
         "description": "horses",
@@ -717,6 +772,7 @@
     {
         "id": 56,
         "name": "Remy",
+        "type": "Dog",
         "date": "2025-02-01",
         "country": "Germany",
         "description": "dog, mix-breed",
@@ -730,6 +786,7 @@
     {
         "id": 57,
         "name": "Sharky",
+        "type": "Cat",
         "date": "2025-02-01",
         "country": "Germany",
         "description": "cat, mix-breed",
@@ -743,6 +800,7 @@
     {
         "id": 58,
         "name": "Ringo&Sumi",
+        "type": "Horse",
         "date": "2025-02-01",
         "country": "Germany",
         "description": "horses",
@@ -756,6 +814,7 @@
     {
         "id": 59,
         "name": "Ringo",
+        "type": "Horse",
         "date": "2025-02-01",
         "country": "Germany",
         "description": "horses",
@@ -769,6 +828,7 @@
     {
         "id": 60,
         "name": "Genna",
+        "type": "Dog",
         "date": "2022-07-12",
         "country": "France",
         "description": "Border Terrier",
@@ -778,6 +838,20 @@
         "icon": "Genna.jpg",
         "image": "Genna.jpg",
         "info": "A lovable border terrier. Lives together with Mowgli. Enjoys walking (she decides where to go) and playing with Mowgli."
+    },
+    {
+        "id": 61,
+        "name": "Ragnar",
+        "type": "Small animals",
+        "date": "2022-02-25",
+        "country": "Germany",
+        "description": "bearded dragon",
+        "age": 3,
+        "lon": 9.967257228056063,
+        "lat": 48.39525782050707,
+        "icon": "Ragnar.jpg",
+        "image": "Ragnar.jpg",
+        "info": "Ragnar - does not talk much."
     }
 
 ]

@@ -11,3 +11,7 @@ An React.js client only project consisting of a Photo Gallery with Thumbnail sli
 - sort items (fotos) by id, name or date
 - filter items by country
 
+# view web app:
+[click to view app on github-pages](https://ManfredAtGit.github.io/THSPetGallery/)
+
+
