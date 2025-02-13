@@ -193,7 +193,7 @@
         "lat": 50.286154087710166,
         "icon": "Chicken-Koblenz.jpg",
         "image": "Chicken-Koblenz.jpg",
-        "info": "Kirke, Karamella, Daphne, Penepole, Alani  "
+        "info": "Kirke, Karamella, Daphne, Penepole, Alani. All ladies. Very interesting to watch them as a social group. Daphne, altough the smallest was top hen. First to enter or leave the hen house, first at the feeding ground. Kirke, the biggest was last in the hacking order. She made up for this by sheer cheekiness. They accepted me as part of the group and useful for up-turning stones during our worm hunts. Great fun! "
     },
     {
         "id": 15,
@@ -213,7 +213,7 @@
         "id": 16,
         "name": "Cinnamon",
         "type": "Dog",
-        "date": "2023-10-13",
+        "date": "2024-03-30",
         "country": "Netherlands",
         "description": "mixed breed, american staffordshire",
         "age": 10,
@@ -221,7 +221,7 @@
         "lat": 52.1466077707771,
         "icon": "Cinnamon.jpg",
         "image": "Cinnamon.jpg",
-        "info": "Cinnamon is a sweet girl. Likes cuddles, easy to walk on leash, and we got her to run along the bike. Running on the beach is what she likes most. "
+        "info": "Cinnamon is a sweet girl. Likes cuddles, easy to walk on leash, and we got her to run along the bike. Running on the beach is what she likes most. At this second sit with Cinnamon, we had to limit the running time due to an injury she sustained previously to our sit ."
     },
     {
         "id": 17,
@@ -426,7 +426,7 @@
         "date": "2024-12-22",
         "country": "Germany",
         "description": "Bengal cat",
-        "age": 13,
+        "age": 4,
         "lon": 11.336979083424398,
         "lat": 48.003508502604475,
         "icon": "Luigi1.jpg",
@@ -852,6 +852,62 @@
         "icon": "Ragnar.jpg",
         "image": "Ragnar.jpg",
         "info": "Ragnar - does not talk much."
+    },
+    {
+        "id": 62,
+        "name": "Norbert&Henry",
+        "type": "Cat",
+        "date": "2023-04-27",
+        "country": "Netherlands",
+        "description": "Maine Coons",
+        "age": 9,
+        "lon": 5.479716247449919,
+        "lat": 51.70696460620194,
+        "icon": "Norbert&Henry.jpg",
+        "image": "Norbert&Henry.jpg",
+        "info": "Tomcat Maine Coons brothers. They are in- and outdoor cats. As they did not grew up at this place, outdoor movement is controlled by a fence emmitting low electric impulses which make the cats stay within the garden."
+     },
+     {
+        "id": 63,
+        "name": "Eko",
+        "type": "Dog",
+        "date": "2023-09-05",
+        "country": "Switzerland",
+        "description": "Golden Retriever",
+        "age": 8,
+        "lon": 6.834764474995741,
+        "lat": 46.83020403419155,
+        "icon": "Eko2.jpg",
+        "image": "Eko2.jpg",
+        "info": "Eko - a great swimmer and diver too. We had a good time together  swimming in Lake Neuchatel. He does fetch stones in the lake to no end and all sizes. "
+    },
+    {
+        "id": 64,
+        "name": "Cinnamon",
+        "type": "Dog",
+        "date": "2023-10-13",
+        "country": "Netherlands",
+        "description": "mixed breed, american staffordshire",
+        "age": 10,
+        "lon": 4.3949333415388905,
+        "lat": 52.1466077707771,
+        "icon": "Cinnamon2.jpg",
+        "image": "Cinnamon2.jpg",
+        "info": "see Cinnamon"
+    },
+    {
+        "id": 65,
+        "name": "Luigi2",
+        "type": "Cat",
+        "date": "2024-12-22",
+        "country": "Germany",
+        "description": "Bengal cat",
+        "age": 4,
+        "lon": 11.336979083424398,
+        "lat": 48.003508502604475,
+        "icon": "Luigi2.jpg",
+        "image": "Luigi2.jpg",
+        "info": "(see Luigi)"
     }
 
 ]

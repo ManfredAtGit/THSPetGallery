@@ -20,7 +20,7 @@ const App = () => {
 
   return (
     <Container>
-      <h1>Pet Photo Gallery</h1>
+      <h1>Pet Foto Gallery</h1>
       <Header>
         <ThemeToggle />
         <SortingControl>
@@ -72,6 +72,16 @@ const Header = styled.header`
   align-items: center;
   gap: 20px;
   padding: 20px;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+    
+    select {
+      width: 100%;
+    }
+  }
 `;
 
 const Container = styled.div`
