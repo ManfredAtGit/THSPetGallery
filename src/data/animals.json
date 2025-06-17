@@ -1135,7 +1135,7 @@
         "info": "Henry/Norbert. ready to go."
     },
     {
-        "id": 81,
+        "id": 82,
         "name": "Cinnemon",
         "type": "Dog",
         "date": "2025-02-23",
@@ -1147,5 +1147,33 @@
         "icon": "Cinnemon-sq-1.jpg",
         "image": "Cinnemon-sq-1.jpg",
         "info": "Cinnemon. Old friends; 3rd sit."
+    },
+    {
+        "id": 83,
+        "name": "Lucy",
+        "type": "Dog",
+        "date": "2025-06-01",
+        "country": "Austria",
+        "description": "(Jack Russell)Terrier",
+        "age": 6,
+        "lon": 13.035177384381125,
+        "lat": 47.80601762496846,
+        "icon": "Lucy-2.jpg",
+        "image": "Lucy-2.jpg",
+        "info": "Lucy is a rescue dog girl. She is very affectionate and always seeks your company"
+    },
+    {
+        "id": 84,
+        "name": "Lucy",
+        "type": "Dog",
+        "date": "2025-06-01",
+        "country": "Austria",
+        "description": "(Jack Russell)Terrier",
+        "age": 6,
+        "lon": 13.035177384381125,
+        "lat": 47.80601762496846,
+        "icon": "Lucy-3.jpg",
+        "image": "Lucy-3.jpg",
+        "info": "Lucy is a rescue dog girl. She is afraid of other (black) dogs and barks when on leash. She is fine with other dogs when off-leash in the dog play-ground. SheWe started to run along the bicycle."
     }
 ]
