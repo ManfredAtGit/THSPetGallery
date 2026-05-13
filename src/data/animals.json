@@ -1259,5 +1259,61 @@
         "icon": "Kali-03-tn.jpg",
         "image": "Kali-03.jpg",
         "info": "Kali, posing in front of foto from Liz Gregg."
-    }
+    },
+    {
+        "id": 91,
+        "name": "Wrigley",
+        "type": "Dog",
+        "date": "2025-10-19",
+        "country": "Netherlands",
+        "description": "dog, mix breed",
+        "age": 12,
+        "lon": 4.401146346131438,
+        "lat": 52.13865411534486,
+        "icon": "Wrigley-25.jpg",
+        "image": "Wrigley-25.jpg",
+        "info": "Wrigley was a bit shy in the beginning but became very trusting and affectionate over time. She likes to walk on the beach.  "
+    },
+    {
+        "id": 92,
+        "name": "Sunny",
+        "type": "Cat",
+        "date": "2026-02-11",
+        "country": "Netherlands",
+        "description": "cat, American shorthair",
+        "age": 11,
+        "lon": 4.3925205083538765,
+        "lat": 52.13896673574135,
+        "icon": "Sunny-26.jpg",
+        "image": "Sunny-26.jpg",
+        "info": "Sunny is extremly shy. She lives indoor all the time."
+    },
+    {
+        "id": 93,
+        "name": "4 boys & 1 girl",
+        "type": "Dog",
+        "date": "2026-03-26",
+        "country": "Switzerland",
+        "description": "dog, Scottish Deerhound",
+        "age": 6,
+        "lon": 7.077312732830155,
+        "lat": 47.42323376331416,
+        "icon": "Deerhounds-1.jpg",
+        "image": "Deerhounds-1.jpg",
+        "info": "Aoife, Mac, Keir, Alfie, Aodhan. 5 gentle giants. They are all very friendly and affectionate. They love to eat, sleep and run and play together - in that order. Aodhan had to wear a cone to prevent him lickking his wound. He made absolutely no fuss about it. Not even when he got the stitches removed. It has been a great experience to be part of the pack."
+    },
+    {
+        "id": 94,
+        "name": "Aodhan&Alfie",
+        "type": "Dog",
+        "date": "2026-03-26",
+        "country": "Switzerland",
+        "description": "dog, Scottish Deerhound",
+        "age": 6,
+        "lon": 7.077312732830155,
+        "lat": 47.42323376331416,
+        "icon": "GentleGiants-1.jpg",
+        "image": "GentleGiants-1.jpg",
+        "info": "Aodhan and Alfie. 2 gentle giants. They are all very friendly and affectionate. They love to eat, sleep and run and play together - in that order."
+    }    
 ]
