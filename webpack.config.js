@@ -64,6 +64,14 @@ module.exports = {
     },
     compress: true,
     port: 9000,
+
+    client: {
+      overlay: {
+        errors: true,   // Echte Fehler weiterhin anzeigen
+        warnings: false // Warnungen zur Dateigröße im Browser AUSBLENDEN
+      }
+    },
+
     hot: true,
   },
   //mode: 'development',
